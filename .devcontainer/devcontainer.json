@@ -9,7 +9,7 @@
 	"workspaceFolder": "/workspace/${localWorkspaceFolderBasename}",
 
 	"onCreateCommand": "bash .devcontainer/onCreateCommand.sh",
-	"postStartCommand": "bash .devcontainer/postStartCommand.sh",
+	"onStartCommand": "bash .devcontainer/onStartCommand.sh",
 	
 	"customizations": {
         "vscode": {
